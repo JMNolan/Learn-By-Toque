@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5164CBD421AE1FF300AF0642 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5164CBD321AE1FF300AF0642 /* AppDelegate.swift */; };
+		5164CBD621AE1FF300AF0642 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5164CBD521AE1FF300AF0642 /* MainMenuViewController.swift */; };
+		5164CBD921AE1FF300AF0642 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5164CBD721AE1FF300AF0642 /* Main.storyboard */; };
+		5164CBDC21AE1FF300AF0642 /* Learn_By_Toque.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5164CBDA21AE1FF300AF0642 /* Learn_By_Toque.xcdatamodeld */; };
+		5164CBDE21AE1FF600AF0642 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5164CBDD21AE1FF600AF0642 /* Assets.xcassets */; };
+		5164CBE121AE1FF600AF0642 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5164CBDF21AE1FF600AF0642 /* LaunchScreen.storyboard */; };
+		5164CBEC21AE220D00AF0642 /* ColorLevel1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5164CBEB21AE220D00AF0642 /* ColorLevel1ViewController.swift */; };
+		5164CBEE21AE24AE00AF0642 /* ColorLevel2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5164CBED21AE24AE00AF0642 /* ColorLevel2ViewController.swift */; };
+		5164CBF021AE24E100AF0642 /* AnimalLevel1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5164CBEF21AE24E100AF0642 /* AnimalLevel1ViewController.swift */; };
+		5164CBF321AE255900AF0642 /* AnimalLevel2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5164CBF221AE255900AF0642 /* AnimalLevel2ViewController.swift */; };
+		5164CBF521AE258E00AF0642 /* LetterLevel1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5164CBF421AE258E00AF0642 /* LetterLevel1ViewController.swift */; };
+		5164CBF721AE25B600AF0642 /* LetterLevel2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5164CBF621AE25B600AF0642 /* LetterLevel2ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5164CBD021AE1FF300AF0642 /* Learn By Toque.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learn By Toque.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5164CBD321AE1FF300AF0642 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5164CBD521AE1FF300AF0642 /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
+		5164CBD821AE1FF300AF0642 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5164CBDB21AE1FF300AF0642 /* Learn_By_Toque.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Learn_By_Toque.xcdatamodel; sourceTree = "<group>"; };
+		5164CBDD21AE1FF600AF0642 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5164CBE021AE1FF600AF0642 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5164CBE221AE1FF600AF0642 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5164CBEB21AE220D00AF0642 /* ColorLevel1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorLevel1ViewController.swift; sourceTree = "<group>"; };
+		5164CBED21AE24AE00AF0642 /* ColorLevel2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorLevel2ViewController.swift; sourceTree = "<group>"; };
+		5164CBEF21AE24E100AF0642 /* AnimalLevel1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalLevel1ViewController.swift; sourceTree = "<group>"; };
+		5164CBF221AE255900AF0642 /* AnimalLevel2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalLevel2ViewController.swift; sourceTree = "<group>"; };
+		5164CBF421AE258E00AF0642 /* LetterLevel1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterLevel1ViewController.swift; sourceTree = "<group>"; };
+		5164CBF621AE25B600AF0642 /* LetterLevel2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterLevel2ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5164CBCD21AE1FF300AF0642 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5164CBC721AE1FF300AF0642 = {
+			isa = PBXGroup;
+			children = (
+				5164CBEA21AE20FE00AF0642 /* LBTControllers */,
+				5164CBE921AE20F000AF0642 /* LBTViews */,
+				5164CBE821AE20E600AF0642 /* LBTModel */,
+				5164CBD221AE1FF300AF0642 /* Learn By Toque */,
+				5164CBD121AE1FF300AF0642 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5164CBD121AE1FF300AF0642 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5164CBD021AE1FF300AF0642 /* Learn By Toque.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5164CBD221AE1FF300AF0642 /* Learn By Toque */ = {
+			isa = PBXGroup;
+			children = (
+				5164CBD321AE1FF300AF0642 /* AppDelegate.swift */,
+			);
+			path = "Learn By Toque";
+			sourceTree = "<group>";
+		};
+		5164CBE821AE20E600AF0642 /* LBTModel */ = {
+			isa = PBXGroup;
+			children = (
+				5164CBDD21AE1FF600AF0642 /* Assets.xcassets */,
+				5164CBE221AE1FF600AF0642 /* Info.plist */,
+				5164CBDA21AE1FF300AF0642 /* Learn_By_Toque.xcdatamodeld */,
+			);
+			path = LBTModel;
+			sourceTree = "<group>";
+		};
+		5164CBE921AE20F000AF0642 /* LBTViews */ = {
+			isa = PBXGroup;
+			children = (
+				5164CBDF21AE1FF600AF0642 /* LaunchScreen.storyboard */,
+				5164CBD721AE1FF300AF0642 /* Main.storyboard */,
+			);
+			path = LBTViews;
+			sourceTree = "<group>";
+		};
+		5164CBEA21AE20FE00AF0642 /* LBTControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5164CBD521AE1FF300AF0642 /* MainMenuViewController.swift */,
+				5164CBEB21AE220D00AF0642 /* ColorLevel1ViewController.swift */,
+				5164CBED21AE24AE00AF0642 /* ColorLevel2ViewController.swift */,
+				5164CBEF21AE24E100AF0642 /* AnimalLevel1ViewController.swift */,
+				5164CBF221AE255900AF0642 /* AnimalLevel2ViewController.swift */,
+				5164CBF421AE258E00AF0642 /* LetterLevel1ViewController.swift */,
+				5164CBF621AE25B600AF0642 /* LetterLevel2ViewController.swift */,
+			);
+			path = LBTControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5164CBCF21AE1FF300AF0642 /* Learn By Toque */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5164CBE521AE1FF600AF0642 /* Build configuration list for PBXNativeTarget "Learn By Toque" */;
+			buildPhases = (
+				5164CBCC21AE1FF300AF0642 /* Sources */,
+				5164CBCD21AE1FF300AF0642 /* Frameworks */,
+				5164CBCE21AE1FF300AF0642 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Learn By Toque";
+			productName = "Learn By Toque";
+			productReference = 5164CBD021AE1FF300AF0642 /* Learn By Toque.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5164CBC821AE1FF300AF0642 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "John Nolan";
+				TargetAttributes = {
+					5164CBCF21AE1FF300AF0642 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 5164CBCB21AE1FF300AF0642 /* Build configuration list for PBXProject "Learn By Toque" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5164CBC721AE1FF300AF0642;
+			productRefGroup = 5164CBD121AE1FF300AF0642 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5164CBCF21AE1FF300AF0642 /* Learn By Toque */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5164CBCE21AE1FF300AF0642 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5164CBE121AE1FF600AF0642 /* LaunchScreen.storyboard in Resources */,
+				5164CBDE21AE1FF600AF0642 /* Assets.xcassets in Resources */,
+				5164CBD921AE1FF300AF0642 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5164CBCC21AE1FF300AF0642 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5164CBF021AE24E100AF0642 /* AnimalLevel1ViewController.swift in Sources */,
+				5164CBF721AE25B600AF0642 /* LetterLevel2ViewController.swift in Sources */,
+				5164CBDC21AE1FF300AF0642 /* Learn_By_Toque.xcdatamodeld in Sources */,
+				5164CBEE21AE24AE00AF0642 /* ColorLevel2ViewController.swift in Sources */,
+				5164CBEC21AE220D00AF0642 /* ColorLevel1ViewController.swift in Sources */,
+				5164CBD621AE1FF300AF0642 /* MainMenuViewController.swift in Sources */,
+				5164CBF321AE255900AF0642 /* AnimalLevel2ViewController.swift in Sources */,
+				5164CBF521AE258E00AF0642 /* LetterLevel1ViewController.swift in Sources */,
+				5164CBD421AE1FF300AF0642 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5164CBD721AE1FF300AF0642 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5164CBD821AE1FF300AF0642 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5164CBDF21AE1FF600AF0642 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5164CBE021AE1FF600AF0642 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5164CBE321AE1FF600AF0642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5164CBE421AE1FF600AF0642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5164CBE621AE1FF600AF0642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3VWSZK7RJH;
+				INFOPLIST_FILE = "Learn By Toque/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nolan.Learn-By-Toque";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5164CBE721AE1FF600AF0642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3VWSZK7RJH;
+				INFOPLIST_FILE = "Learn By Toque/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nolan.Learn-By-Toque";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5164CBCB21AE1FF300AF0642 /* Build configuration list for PBXProject "Learn By Toque" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5164CBE321AE1FF600AF0642 /* Debug */,
+				5164CBE421AE1FF600AF0642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5164CBE521AE1FF600AF0642 /* Build configuration list for PBXNativeTarget "Learn By Toque" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5164CBE621AE1FF600AF0642 /* Debug */,
+				5164CBE721AE1FF600AF0642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5164CBDA21AE1FF300AF0642 /* Learn_By_Toque.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5164CBDB21AE1FF300AF0642 /* Learn_By_Toque.xcdatamodel */,
+			);
+			currentVersion = 5164CBDB21AE1FF300AF0642 /* Learn_By_Toque.xcdatamodel */;
+			path = Learn_By_Toque.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5164CBC821AE1FF300AF0642 /* Project object */;
+}
