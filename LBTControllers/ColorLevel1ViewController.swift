@@ -11,4 +11,13 @@ import UIKit
 
 class ColorLevel1ViewController: UIViewController {
     
+    //MARK: IBOutlets
+    @IBOutlet weak var topButton: ColorsButton!
+    @IBOutlet weak var rightButton: ColorsButton!
+    @IBOutlet weak var leftButton: ColorsButton!
+    @IBOutlet weak var questionLabel: UILabel!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
 }

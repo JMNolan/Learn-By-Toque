@@ -11,4 +11,16 @@ import UIKit
 
 class LetterLevel1ViewController: UIViewController {
     
+    //MARK: IBOutlets
+    @IBOutlet weak var button1: UIButton!
+    @IBOutlet weak var button2: UIButton!
+    @IBOutlet weak var button3: UIButton!
+    @IBOutlet weak var questionLabel: UILabel!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        
+    }
+    
 }

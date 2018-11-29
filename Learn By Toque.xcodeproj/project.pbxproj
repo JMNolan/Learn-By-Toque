@@ -19,6 +19,8 @@
 		5164CBF321AE255900AF0642 /* AnimalLevel2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5164CBF221AE255900AF0642 /* AnimalLevel2ViewController.swift */; };
 		5164CBF521AE258E00AF0642 /* LetterLevel1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5164CBF421AE258E00AF0642 /* LetterLevel1ViewController.swift */; };
 		5164CBF721AE25B600AF0642 /* LetterLevel2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5164CBF621AE25B600AF0642 /* LetterLevel2ViewController.swift */; };
+		5164CBF921AFA8AF00AF0642 /* ColorsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5164CBF821AFA8AF00AF0642 /* ColorsButton.swift */; };
+		5164CBFB21AFB3BB00AF0642 /* LBTModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5164CBFA21AFB3BB00AF0642 /* LBTModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		5164CBF221AE255900AF0642 /* AnimalLevel2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalLevel2ViewController.swift; sourceTree = "<group>"; };
 		5164CBF421AE258E00AF0642 /* LetterLevel1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterLevel1ViewController.swift; sourceTree = "<group>"; };
 		5164CBF621AE25B600AF0642 /* LetterLevel2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterLevel2ViewController.swift; sourceTree = "<group>"; };
+		5164CBF821AFA8AF00AF0642 /* ColorsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsButton.swift; sourceTree = "<group>"; };
+		5164CBFA21AFB3BB00AF0642 /* LBTModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBTModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,7 @@
 				5164CBDD21AE1FF600AF0642 /* Assets.xcassets */,
 				5164CBE221AE1FF600AF0642 /* Info.plist */,
 				5164CBDA21AE1FF300AF0642 /* Learn_By_Toque.xcdatamodeld */,
+				5164CBFA21AFB3BB00AF0642 /* LBTModel.swift */,
 			);
 			path = LBTModel;
 			sourceTree = "<group>";
@@ -91,6 +96,7 @@
 			children = (
 				5164CBDF21AE1FF600AF0642 /* LaunchScreen.storyboard */,
 				5164CBD721AE1FF300AF0642 /* Main.storyboard */,
+				5164CBF821AFA8AF00AF0642 /* ColorsButton.swift */,
 			);
 			path = LBTViews;
 			sourceTree = "<group>";
@@ -180,6 +186,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5164CBFB21AFB3BB00AF0642 /* LBTModel.swift in Sources */,
 				5164CBF021AE24E100AF0642 /* AnimalLevel1ViewController.swift in Sources */,
 				5164CBF721AE25B600AF0642 /* LetterLevel2ViewController.swift in Sources */,
 				5164CBDC21AE1FF300AF0642 /* Learn_By_Toque.xcdatamodeld in Sources */,
@@ -189,6 +196,7 @@
 				5164CBF321AE255900AF0642 /* AnimalLevel2ViewController.swift in Sources */,
 				5164CBF521AE258E00AF0642 /* LetterLevel1ViewController.swift in Sources */,
 				5164CBD421AE1FF300AF0642 /* AppDelegate.swift in Sources */,
+				5164CBF921AFA8AF00AF0642 /* ColorsButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
