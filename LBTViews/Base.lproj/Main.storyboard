@@ -61,15 +61,16 @@
                         <outlet property="lettersButton" destination="ehq-Bi-Ci9" id="yUf-sl-LRe"/>
                         <outlet property="settingsButton" destination="vNd-ue-6ZT" id="m0L-L4-2KJ"/>
                         <segue destination="BKW-g6-aZa" kind="push" identifier="MainMenuToAnimals1" id="5Lv-1A-aq1"/>
-                        <segue destination="dzG-Cf-Ag1" kind="push" identifier="MainMenuToColor1" id="qYv-6e-M74"/>
+                        <segue destination="dzG-Cf-Ag1" kind="push" identifier="MainMenuToColors1" id="qYv-6e-M74"/>
                         <segue destination="Vvy-t1-pEN" kind="push" identifier="MainMenuToLetters1" id="4pq-QL-Ib0"/>
-                        <segue destination="QE6-ig-Oz2" kind="push" identifier="MainMenuToColor2" id="2Ea-sP-GH8"/>
+                        <segue destination="QE6-ig-Oz2" kind="push" identifier="MainMenuToColors2" id="2Ea-sP-GH8"/>
                         <segue destination="cUZ-8i-AMC" kind="push" identifier="MainMenuToAnimals2" id="Rz4-jd-HTl"/>
                         <segue destination="g80-6S-42Q" kind="push" identifier="MainMenuToLetters2" id="tdC-da-Qzy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="182" y="134"/>
         </scene>
         <!--Animal Level1 View Controller-->
         <scene sceneID="rxr-Mk-umd">
@@ -78,6 +79,15 @@
                     <view key="view" contentMode="scaleToFill" id="6qO-S0-aVp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Animals 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fn8-ul-Fhv">
+                                <rect key="frame" x="166" y="323" width="73" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="NMh-ul-7VI"/>
                     </view>
@@ -97,6 +107,15 @@
                     <view key="view" contentMode="scaleToFill" id="VCa-O0-Vzb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Letters 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cVu-pi-w5Y">
+                                <rect key="frame" x="166" y="323" width="66" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Bwu-UW-Bcw"/>
                     </view>
@@ -116,6 +135,15 @@
                     <view key="view" contentMode="scaleToFill" id="Dwm-tm-sHj">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Letters 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XPW-Vu-qQg">
+                                <rect key="frame" x="166" y="323" width="68" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="2dv-5y-WbR"/>
                     </view>
@@ -132,6 +160,15 @@
                     <view key="view" contentMode="scaleToFill" id="222-hS-4vH">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Animals 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c3R-69-Rj1">
+                                <rect key="frame" x="166" y="323" width="75" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="YI9-1V-Qfs"/>
                     </view>
@@ -148,12 +185,21 @@
                     <view key="view" contentMode="scaleToFill" id="JAk-Sc-PLL">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Colors 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v1a-VC-9dF">
+                                <rect key="frame" x="166" y="323" width="62" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="ibv-oa-Pzn"/>
                     </view>
                     <navigationItem key="navigationItem" id="VSt-hv-rGL"/>
                     <connections>
-                        <segue destination="QE6-ig-Oz2" kind="push" identifier="Color1ToColor2" id="ChL-iN-lnt"/>
+                        <segue destination="QE6-ig-Oz2" kind="push" identifier="Color1ToColors2" id="ChL-iN-lnt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CMZ-cx-aGk" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -167,6 +213,15 @@
                     <view key="view" contentMode="scaleToFill" id="nfy-QM-3P9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Colors 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CoJ-v1-tLJ">
+                                <rect key="frame" x="166" y="323" width="64" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="wsa-5z-434"/>
                     </view>
@@ -195,7 +250,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="ChL-iN-lnt"/>
-        <segue reference="a7y-Vf-2OB"/>
-        <segue reference="KRk-tP-HWq"/>
+        <segue reference="Rz4-jd-HTl"/>
+        <segue reference="tdC-da-Qzy"/>
     </inferredMetricsTieBreakers>
 </document>
