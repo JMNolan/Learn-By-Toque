@@ -21,6 +21,9 @@
 		5164CBF721AE25B600AF0642 /* LetterLevel2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5164CBF621AE25B600AF0642 /* LetterLevel2ViewController.swift */; };
 		5164CBF921AFA8AF00AF0642 /* ColorsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5164CBF821AFA8AF00AF0642 /* ColorsButton.swift */; };
 		5164CBFB21AFB3BB00AF0642 /* LBTModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5164CBFA21AFB3BB00AF0642 /* LBTModel.swift */; };
+		5164CBFD21B0D01500AF0642 /* ColorsLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5164CBFC21B0D01500AF0642 /* ColorsLibrary.swift */; };
+		5164CBFF21B0D4B800AF0642 /* AnimalsLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5164CBFE21B0D4B800AF0642 /* AnimalsLibrary.swift */; };
+		5164CC0121B0D50800AF0642 /* LettersLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5164CC0021B0D50800AF0642 /* LettersLibrary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +43,9 @@
 		5164CBF621AE25B600AF0642 /* LetterLevel2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterLevel2ViewController.swift; sourceTree = "<group>"; };
 		5164CBF821AFA8AF00AF0642 /* ColorsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsButton.swift; sourceTree = "<group>"; };
 		5164CBFA21AFB3BB00AF0642 /* LBTModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBTModel.swift; sourceTree = "<group>"; };
+		5164CBFC21B0D01500AF0642 /* ColorsLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsLibrary.swift; sourceTree = "<group>"; };
+		5164CBFE21B0D4B800AF0642 /* AnimalsLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsLibrary.swift; sourceTree = "<group>"; };
+		5164CC0021B0D50800AF0642 /* LettersLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LettersLibrary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +93,9 @@
 				5164CBE221AE1FF600AF0642 /* Info.plist */,
 				5164CBDA21AE1FF300AF0642 /* Learn_By_Toque.xcdatamodeld */,
 				5164CBFA21AFB3BB00AF0642 /* LBTModel.swift */,
+				5164CBFC21B0D01500AF0642 /* ColorsLibrary.swift */,
+				5164CBFE21B0D4B800AF0642 /* AnimalsLibrary.swift */,
+				5164CC0021B0D50800AF0642 /* LettersLibrary.swift */,
 			);
 			path = LBTModel;
 			sourceTree = "<group>";
@@ -187,6 +196,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5164CBFB21AFB3BB00AF0642 /* LBTModel.swift in Sources */,
+				5164CBFD21B0D01500AF0642 /* ColorsLibrary.swift in Sources */,
+				5164CBFF21B0D4B800AF0642 /* AnimalsLibrary.swift in Sources */,
 				5164CBF021AE24E100AF0642 /* AnimalLevel1ViewController.swift in Sources */,
 				5164CBF721AE25B600AF0642 /* LetterLevel2ViewController.swift in Sources */,
 				5164CBDC21AE1FF300AF0642 /* Learn_By_Toque.xcdatamodeld in Sources */,
@@ -197,6 +208,7 @@
 				5164CBF521AE258E00AF0642 /* LetterLevel1ViewController.swift in Sources */,
 				5164CBD421AE1FF300AF0642 /* AppDelegate.swift in Sources */,
 				5164CBF921AFA8AF00AF0642 /* ColorsButton.swift in Sources */,
+				5164CC0121B0D50800AF0642 /* LettersLibrary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

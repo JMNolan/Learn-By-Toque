@@ -17,7 +17,7 @@ class LBTModel {
         //let image: UIImage
     }
     
-    struct secondaryColors {
+    struct secondaryColor {
         let colors: [String]
         //let image: UIImage
     }
@@ -25,6 +25,7 @@ class LBTModel {
     struct animal {
         let name: String
         let sound: String
-        let image: UIImage
+        let home: String
+//        let image: UIImage
     }
 }
