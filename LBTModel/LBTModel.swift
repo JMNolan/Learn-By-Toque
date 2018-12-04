@@ -12,13 +12,9 @@ import UIKit
 
 class LBTModel {
     
-    struct primaryColor {
-        let color: String!
-        //let image: UIImage
-    }
-    
-    struct secondaryColor {
-        let colors: [String]
+    struct color {
+        let color: String
+        let madeOf: [String]
         //let image: UIImage
     }
     

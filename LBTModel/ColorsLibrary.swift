@@ -8,17 +8,17 @@
 
 import Foundation
 
-let red = LBTModel.primaryColor(color: "Red")
-let blue =  LBTModel.primaryColor(color: "Blue")
-let yellow = LBTModel.primaryColor(color: "Yellow")
+let red = LBTModel.color(color: "Red", madeOf: ["Red"])
+let blue =  LBTModel.color(color: "Blue", madeOf: ["Blue"])
+let yellow = LBTModel.color(color: "Yellow", madeOf: ["Yellow"])
 
-let orange = LBTModel.secondaryColor(colors: ["Red", "Yellow"])
-let green = LBTModel.secondaryColor(colors: ["Blue", "Yellow"])
-let purple = LBTModel.secondaryColor(colors: ["Blue", "Red"])
+let orange = LBTModel.color(color: "Orange", madeOf: ["Red", "Yellow"])
+let green = LBTModel.color(color: "Green", madeOf: ["Blue", "Yellow"])
+let purple = LBTModel.color(color: "Purple", madeOf: ["Blue", "Red"])
 
 class ColorsLibrary {
     
-    let allColors: [Any] = [
+    static let allColors: [LBTModel.color] = [
         red,
         blue,
         yellow,
@@ -27,7 +27,7 @@ class ColorsLibrary {
         purple
     ]
     
-    let secondaryColors: [LBTModel.secondaryColor] = [
+    static let secondaryColors: [LBTModel.color] = [
         orange,
         green,
         purple

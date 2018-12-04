@@ -11,4 +11,5 @@ import UIKit
 
 class ColorsButton: UIButton {
     var color: String?
+    var isCorrectButton: Bool?
 }

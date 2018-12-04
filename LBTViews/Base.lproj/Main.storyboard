@@ -302,7 +302,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Which color is Green?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y5t-WD-Dhu">
-                                <rect key="frame" x="104" y="128" width="167" height="21"/>
+                                <rect key="frame" x="16" y="128" width="343" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -312,16 +312,25 @@
                                 <rect key="frame" x="161" y="271" width="52" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button1"/>
+                                <connections>
+                                    <action selector="button1Tapped:" destination="dzG-Cf-Ag1" eventType="touchUpInside" id="h2g-Oe-j8W"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nb5-eu-xqV" customClass="ColorsButton" customModule="Learn_By_Toque" customModuleProvider="target">
                                 <rect key="frame" x="85" y="415" width="55" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button3"/>
+                                <connections>
+                                    <action selector="button3Tapped:" destination="dzG-Cf-Ag1" eventType="touchUpInside" id="PG7-G3-Dm3"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VhE-iX-Rr3" customClass="ColorsButton" customModule="Learn_By_Toque" customModuleProvider="target">
                                 <rect key="frame" x="257" y="415" width="55" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button2"/>
+                                <connections>
+                                    <action selector="button2Tapped:" destination="dzG-Cf-Ag1" eventType="touchUpInside" id="d5E-zi-E7B"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -331,14 +340,14 @@
                     <connections>
                         <outlet property="button1" destination="Vjq-4V-dRT" id="ebG-iG-cfY"/>
                         <outlet property="button2" destination="VhE-iX-Rr3" id="P9I-aH-4Bz"/>
-                        <outlet property="leftButton" destination="nb5-eu-xqV" id="t7C-Q2-y2o"/>
+                        <outlet property="button3" destination="nb5-eu-xqV" id="gyz-dn-4LJ"/>
                         <outlet property="questionLabel" destination="y5t-WD-Dhu" id="UBX-I5-oOg"/>
                         <segue destination="QE6-ig-Oz2" kind="push" identifier="Color1ToColors2" id="ChL-iN-lnt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CMZ-cx-aGk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1334" y="-779"/>
+            <point key="canvasLocation" x="1333.5999999999999" y="-779.46026986506752"/>
         </scene>
         <!--Color Level2 View Controller-->
         <scene sceneID="THH-bK-bvI">
