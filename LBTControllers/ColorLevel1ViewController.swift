@@ -57,40 +57,41 @@ class ColorLevel1ViewController: UIViewController {
     //checks each button to see if it is the "correct" button. then randomly sets a color to that button if its not the "correct" one
     func setButtonColors() {
         var colors = pullColorsFromArray(colorObjects: ColorsLibrary.allColors)
+        colors.removeAll {$0 == correctColor?.color}
         if button1 == correctButton {
             button1.isCorrectButton = true
             button1.color = correctColor?.color
-            button1.setTitle(button1.color, for: .normal)
             colors.removeAll {$0 == button1.color}
+            button1.setTitle(button1.color, for: .normal)
         } else {
             button1.isCorrectButton = false
             button1.color = colors.randomElement()!
-            button1.setTitle(button1.color, for: .normal)
             colors.removeAll {$0 == button1.color}
+            button1.setTitle(button1.color, for: .normal)
         }
         
         if button2 == correctButton {
             button2.isCorrectButton = true
             button2.color = correctColor?.color
-            button2.setTitle(button2.color, for: .normal)
             colors.removeAll {$0 == button2.color}
+            button2.setTitle(button2.color, for: .normal)
         } else {
             button2.isCorrectButton = false
             button2.color = colors.randomElement()!
-            button2.setTitle(button2.color, for: .normal)
             colors.removeAll {$0 == button2.color}
+            button2.setTitle(button2.color, for: .normal)
         }
         
         if button3 == correctButton {
             button3.isCorrectButton = true
             button3.color = correctColor?.color
-            button3.setTitle(button3.color, for: .normal)
             colors.removeAll {$0 == button3.color}
+            button3.setTitle(button3.color, for: .normal)
         } else {
             button3.isCorrectButton = false
             button3.color = colors.randomElement()!
-            button3.setTitle(button3.color, for: .normal)
             colors.removeAll {$0 == button3.color}
+            button3.setTitle(button3.color, for: .normal)
         }
     }
     
