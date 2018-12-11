@@ -368,6 +368,9 @@
                                 <rect key="frame" x="161" y="241" width="52" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button1"/>
+                                <connections>
+                                    <action selector="button1Tapped:" destination="QE6-ig-Oz2" eventType="touchUpInside" id="aJS-oO-0LU"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Which two colors make Green?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YwG-Xd-2Vu">
                                 <rect key="frame" x="69" y="117" width="237" height="21"/>
@@ -380,16 +383,25 @@
                                 <rect key="frame" x="251" y="337" width="55" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button2"/>
+                                <connections>
+                                    <action selector="button2Tapped:" destination="QE6-ig-Oz2" eventType="touchUpInside" id="2BJ-Gv-VF8"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2fK-ka-esJ" customClass="ColorsButton" customModule="Learn_By_Toque" customModuleProvider="target">
                                 <rect key="frame" x="160" y="437" width="55" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button3"/>
+                                <connections>
+                                    <action selector="button3Tapped:" destination="QE6-ig-Oz2" eventType="touchUpInside" id="Mt7-Zo-jHD"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wgM-U2-fCF" customClass="ColorsButton" customModule="Learn_By_Toque" customModuleProvider="target">
                                 <rect key="frame" x="69" y="337" width="56" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button4"/>
+                                <connections>
+                                    <action selector="button4Tapped:" destination="QE6-ig-Oz2" eventType="touchUpInside" id="M8c-pt-tf0"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
