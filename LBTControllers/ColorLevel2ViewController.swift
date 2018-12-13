@@ -27,8 +27,6 @@ class ColorLevel2ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         generateNewQuestion()
-        print("the color is made of \(madeOfColors)")
-        print("the correct buttons are \(correctButtons[0]) and \(correctButtons[1])")
     }
     
     //MARK: IBActions
@@ -62,11 +60,8 @@ class ColorLevel2ViewController: UIViewController {
         madeOfColors = []
         correctColor = ColorsLibrary.secondaryColors.randomElement()!
         let color = correctColor?.color
-        print("the correct color is \(String(describing: correctColor?.color))")
         madeOfColors.append((correctColor?.madeOf[0])!)
-        print("added \(String(describing: madeOfColors[0]))")
         madeOfColors.append((correctColor?.madeOf[1])!)
-        print("added \(String(describing: madeOfColors[1]))")
         questionLabel.text = "Which colors make \(color!)?"
     }
     
@@ -75,7 +70,6 @@ class ColorLevel2ViewController: UIViewController {
         var colors = pullColorsFromArray(colorObjects: ColorsLibrary.allColors)
         colors.removeAll {$0 == madeOfColors[0]}
         colors.removeAll {$0 == madeOfColors[1]}
-        print("The wrong colors are \(colors)")
         if correctButtons.contains(button1) {
             button1.isCorrectButton = true
             button1.color = madeOfColors.randomElement()
@@ -176,7 +170,7 @@ class ColorLevel2ViewController: UIViewController {
             //TODO: call rewind to main menu
             self.dismiss(animated: true, completion: nil)
         })
-        let alert = UIAlertController(title: alertTitle, message: alertMessage, preferredStyle: .actionSheet)
+        let alert = UIAlertController(title: alertTitle, message: alertMessage, preferredStyle: .alert)
         alert.addAction(next)
         alert.addAction(backToMainMenu)
         present(alert, animated: true, completion: nil)
