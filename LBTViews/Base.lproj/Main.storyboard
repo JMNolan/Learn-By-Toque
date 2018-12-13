@@ -268,16 +268,25 @@
                                 <rect key="frame" x="161" y="224" width="52" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button1"/>
+                                <connections>
+                                    <action selector="button1Tapped:" destination="cUZ-8i-AMC" eventType="touchUpInside" id="x6f-0b-o4q"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Htk-cA-sCh" customClass="AnimalButton" customModule="Learn_By_Toque" customModuleProvider="target">
                                 <rect key="frame" x="261" y="357" width="55" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button2"/>
+                                <connections>
+                                    <action selector="button2Tapped:" destination="cUZ-8i-AMC" eventType="touchUpInside" id="Lz4-BE-iXz"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o0N-Hm-nKz" customClass="AnimalButton" customModule="Learn_By_Toque" customModuleProvider="target">
                                 <rect key="frame" x="79" y="357" width="55" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button3"/>
+                                <connections>
+                                    <action selector="button3Tapped:" destination="cUZ-8i-AMC" eventType="touchUpInside" id="qCr-gy-3gA"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

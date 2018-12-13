@@ -60,5 +60,4 @@ class AnimalsLibrary {
         duck,
         goose
     ]
-    
 }

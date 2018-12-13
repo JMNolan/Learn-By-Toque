@@ -24,4 +24,14 @@ class LBTModel {
         let home: String
 //        let image: UIImage
     }
+    
+    struct letter {
+        let character: String
+//        let image: UIImage
+    }
+    
+    struct alphabetItem {
+        let name: String
+//        let image: UIImage
+    }
 }
