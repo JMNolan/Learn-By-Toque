@@ -32,6 +32,8 @@ class LBTModel {
     
     struct alphabetItem {
         let name: String
+        let firstLetter: letter
+        let containsLetters: [letter]
 //        let image: UIImage
     }
 }

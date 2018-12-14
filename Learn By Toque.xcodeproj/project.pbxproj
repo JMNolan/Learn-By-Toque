@@ -25,6 +25,7 @@
 		5164CBFF21B0D4B800AF0642 /* AnimalsLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5164CBFE21B0D4B800AF0642 /* AnimalsLibrary.swift */; };
 		5164CC0121B0D50800AF0642 /* LettersLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5164CC0021B0D50800AF0642 /* LettersLibrary.swift */; };
 		5164CC0321C0977300AF0642 /* AnimalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5164CC0221C0977300AF0642 /* AnimalButton.swift */; };
+		5164CC0521C23D7A00AF0642 /* LetterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5164CC0421C23D7A00AF0642 /* LetterButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		5164CBFE21B0D4B800AF0642 /* AnimalsLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsLibrary.swift; sourceTree = "<group>"; };
 		5164CC0021B0D50800AF0642 /* LettersLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LettersLibrary.swift; sourceTree = "<group>"; };
 		5164CC0221C0977300AF0642 /* AnimalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalButton.swift; sourceTree = "<group>"; };
+		5164CC0421C23D7A00AF0642 /* LetterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				5164CBD721AE1FF300AF0642 /* Main.storyboard */,
 				5164CBF821AFA8AF00AF0642 /* ColorsButton.swift */,
 				5164CC0221C0977300AF0642 /* AnimalButton.swift */,
+				5164CC0421C23D7A00AF0642 /* LetterButton.swift */,
 			);
 			path = LBTViews;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 				5164CBEE21AE24AE00AF0642 /* ColorLevel2ViewController.swift in Sources */,
 				5164CBEC21AE220D00AF0642 /* ColorLevel1ViewController.swift in Sources */,
 				5164CBD621AE1FF300AF0642 /* MainMenuViewController.swift in Sources */,
+				5164CC0521C23D7A00AF0642 /* LetterButton.swift in Sources */,
 				5164CBF321AE255900AF0642 /* AnimalLevel2ViewController.swift in Sources */,
 				5164CBF521AE258E00AF0642 /* LetterLevel1ViewController.swift in Sources */,
 				5164CBD421AE1FF300AF0642 /* AppDelegate.swift in Sources */,
