@@ -26,6 +26,8 @@
 		5164CC0121B0D50800AF0642 /* LettersLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5164CC0021B0D50800AF0642 /* LettersLibrary.swift */; };
 		5164CC0321C0977300AF0642 /* AnimalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5164CC0221C0977300AF0642 /* AnimalButton.swift */; };
 		5164CC0521C23D7A00AF0642 /* LetterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5164CC0421C23D7A00AF0642 /* LetterButton.swift */; };
+		5190035721C8A1C300732519 /* MenuLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5190035621C8A1C300732519 /* MenuLauncher.swift */; };
+		5190035921C8ACBF00732519 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5190035821C8ACBF00732519 /* MenuCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		5164CC0021B0D50800AF0642 /* LettersLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LettersLibrary.swift; sourceTree = "<group>"; };
 		5164CC0221C0977300AF0642 /* AnimalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalButton.swift; sourceTree = "<group>"; };
 		5164CC0421C23D7A00AF0642 /* LetterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterButton.swift; sourceTree = "<group>"; };
+		5190035621C8A1C300732519 /* MenuLauncher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuLauncher.swift; sourceTree = "<group>"; };
+		5190035821C8ACBF00732519 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +130,8 @@
 				5164CBF221AE255900AF0642 /* AnimalLevel2ViewController.swift */,
 				5164CBF421AE258E00AF0642 /* LetterLevel1ViewController.swift */,
 				5164CBF621AE25B600AF0642 /* LetterLevel2ViewController.swift */,
+				5190035621C8A1C300732519 /* MenuLauncher.swift */,
+				5190035821C8ACBF00732519 /* MenuCell.swift */,
 			);
 			path = LBTControllers;
 			sourceTree = "<group>";
@@ -202,6 +208,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5164CBFB21AFB3BB00AF0642 /* LBTModel.swift in Sources */,
+				5190035721C8A1C300732519 /* MenuLauncher.swift in Sources */,
+				5190035921C8ACBF00732519 /* MenuCell.swift in Sources */,
 				5164CBFD21B0D01500AF0642 /* ColorsLibrary.swift in Sources */,
 				5164CBFF21B0D4B800AF0642 /* AnimalsLibrary.swift in Sources */,
 				5164CBF021AE24E100AF0642 /* AnimalLevel1ViewController.swift in Sources */,

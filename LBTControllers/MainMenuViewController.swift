@@ -17,10 +17,11 @@ class MainMenuViewController: UIViewController {
     @IBOutlet weak var settingsButton: UIButton!
     
     //Mark: Properties
-    
+    let menuLauncher = MenuLauncher()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupMenuButton()
         
     }
 
@@ -52,6 +53,16 @@ class MainMenuViewController: UIViewController {
         alert.addAction(level1Action)
         alert.addAction(level2Action)
         present(alert, animated: true, completion: nil)
+    }
+    
+    func setupMenuButton() {
+        let menuButton = UIBarButtonItem(title: "Menu", style: .plain, target: self, action: #selector(showMenu))
+        navigationItem.rightBarButtonItem = menuButton
+    }
+    
+    @objc func showMenu() {
+        //TODO: present menu and dim background
+        menuLauncher.showMenu()
     }
 
 }
