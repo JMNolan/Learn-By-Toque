@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		510E8A0321DF1C0100624730 /* LearnByToqueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510E8A0221DF1C0100624730 /* LearnByToqueTests.swift */; };
 		5164CBD421AE1FF300AF0642 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5164CBD321AE1FF300AF0642 /* AppDelegate.swift */; };
 		5164CBD621AE1FF300AF0642 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5164CBD521AE1FF300AF0642 /* MainMenuViewController.swift */; };
 		5164CBD921AE1FF300AF0642 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5164CBD721AE1FF300AF0642 /* Main.storyboard */; };
@@ -30,7 +31,23 @@
 		5190035921C8ACBF00732519 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5190035821C8ACBF00732519 /* MenuCell.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		510E8A0521DF1C0100624730 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5164CBC821AE1FF300AF0642 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5164CBCF21AE1FF300AF0642;
+			remoteInfo = "Learn By Toque";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		510E89E621DF00DF00624730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		510E89F421DF172100624730 /* LearnByToqueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnByToqueTests.swift; sourceTree = "<group>"; };
+		510E89F621DF172100624730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		510E8A0021DF1C0100624730 /* LearnByToqueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnByToqueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		510E8A0221DF1C0100624730 /* LearnByToqueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnByToqueTests.swift; sourceTree = "<group>"; };
+		510E8A0421DF1C0100624730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5164CBD021AE1FF300AF0642 /* Learn By Toque.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learn By Toque.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5164CBD321AE1FF300AF0642 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5164CBD521AE1FF300AF0642 /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +74,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		510E89FD21DF1C0100624730 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5164CBCD21AE1FF300AF0642 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -67,6 +91,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		510E89E321DF00DF00624730 /* Learn By ToqueTests */ = {
+			isa = PBXGroup;
+			children = (
+				510E89E621DF00DF00624730 /* Info.plist */,
+			);
+			path = "Learn By ToqueTests";
+			sourceTree = "<group>";
+		};
+		510E89F321DF172100624730 /* LearnByToqueTests */ = {
+			isa = PBXGroup;
+			children = (
+				510E89F421DF172100624730 /* LearnByToqueTests.swift */,
+				510E89F621DF172100624730 /* Info.plist */,
+			);
+			path = LearnByToqueTests;
+			sourceTree = "<group>";
+		};
+		510E8A0121DF1C0100624730 /* LearnByToqueTests */ = {
+			isa = PBXGroup;
+			children = (
+				510E8A0221DF1C0100624730 /* LearnByToqueTests.swift */,
+				510E8A0421DF1C0100624730 /* Info.plist */,
+			);
+			path = LearnByToqueTests;
+			sourceTree = "<group>";
+		};
 		5164CBC721AE1FF300AF0642 = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +124,9 @@
 				5164CBE921AE20F000AF0642 /* LBTViews */,
 				5164CBE821AE20E600AF0642 /* LBTModel */,
 				5164CBD221AE1FF300AF0642 /* Learn By Toque */,
+				510E89E321DF00DF00624730 /* Learn By ToqueTests */,
+				510E89F321DF172100624730 /* LearnByToqueTests */,
+				510E8A0121DF1C0100624730 /* LearnByToqueTests */,
 				5164CBD121AE1FF300AF0642 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -82,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				5164CBD021AE1FF300AF0642 /* Learn By Toque.app */,
+				510E8A0021DF1C0100624730 /* LearnByToqueTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -139,6 +193,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		510E89FF21DF1C0100624730 /* LearnByToqueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 510E8A0721DF1C0100624730 /* Build configuration list for PBXNativeTarget "LearnByToqueTests" */;
+			buildPhases = (
+				510E89FC21DF1C0100624730 /* Sources */,
+				510E89FD21DF1C0100624730 /* Frameworks */,
+				510E89FE21DF1C0100624730 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				510E8A0621DF1C0100624730 /* PBXTargetDependency */,
+			);
+			name = LearnByToqueTests;
+			productName = LearnByToqueTests;
+			productReference = 510E8A0021DF1C0100624730 /* LearnByToqueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		5164CBCF21AE1FF300AF0642 /* Learn By Toque */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5164CBE521AE1FF600AF0642 /* Build configuration list for PBXNativeTarget "Learn By Toque" */;
@@ -166,6 +238,10 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "John Nolan";
 				TargetAttributes = {
+					510E89FF21DF1C0100624730 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5164CBCF21AE1FF300AF0642;
+					};
 					5164CBCF21AE1FF300AF0642 = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -185,11 +261,19 @@
 			projectRoot = "";
 			targets = (
 				5164CBCF21AE1FF300AF0642 /* Learn By Toque */,
+				510E89FF21DF1C0100624730 /* LearnByToqueTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		510E89FE21DF1C0100624730 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5164CBCE21AE1FF300AF0642 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -203,6 +287,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		510E89FC21DF1C0100624730 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				510E8A0321DF1C0100624730 /* LearnByToqueTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5164CBCC21AE1FF300AF0642 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -230,6 +322,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		510E8A0621DF1C0100624730 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5164CBCF21AE1FF300AF0642 /* Learn By Toque */;
+			targetProxy = 510E8A0521DF1C0100624730 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		5164CBD721AE1FF300AF0642 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -250,6 +350,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		510E8A0821DF1C0100624730 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3VWSZK7RJH;
+				INFOPLIST_FILE = LearnByToqueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nolan.LearnByToqueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Learn By Toque.app/Learn By Toque";
+			};
+			name = Debug;
+		};
+		510E8A0921DF1C0100624730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3VWSZK7RJH;
+				INFOPLIST_FILE = LearnByToqueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nolan.LearnByToqueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Learn By Toque.app/Learn By Toque";
+			};
+			name = Release;
+		};
 		5164CBE321AE1FF600AF0642 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -405,6 +545,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		510E8A0721DF1C0100624730 /* Build configuration list for PBXNativeTarget "LearnByToqueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				510E8A0821DF1C0100624730 /* Debug */,
+				510E8A0921DF1C0100624730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		5164CBCB21AE1FF300AF0642 /* Build configuration list for PBXProject "Learn By Toque" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

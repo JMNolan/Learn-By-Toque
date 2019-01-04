@@ -21,10 +21,11 @@ class AnimalLevel2ViewController: UIViewController {
     var allHabitats: [[LBTModel.animal]] = [AnimalsLibrary.farmAnimals, AnimalsLibrary.jungleAnimals, AnimalsLibrary.pondAnimals]
     var correctAnimal: LBTModel.animal!
     var correctHabitat: String!
+    var menuLauncher = MenuLauncher()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        setupMenuButton()
         generateNewQuestion()
     }
     
@@ -39,6 +40,14 @@ class AnimalLevel2ViewController: UIViewController {
         userTapped(button: sender as! AnimalButton)
     }
     
+    func setupMenuButton() {
+        let menuButton = UIBarButtonItem(title: "Menu", style: .plain, target: self, action: #selector(showMenu))
+        navigationItem.rightBarButtonItem = menuButton
+    }
+    
+    @objc func showMenu() {
+        menuLauncher.showMenu()
+    }
     
     //check each button to find which is correct. set correct button to correctAnimal and set the rest to random animals
     func setButtonAnimals() {

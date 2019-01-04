@@ -20,10 +20,11 @@ class LetterLevel2ViewController: UIViewController {
     //MARK: Properties
     var alphabetItem: LBTModel.alphabetItem!
     var allButtons: [LetterButton]!
+    var menuLauncher = MenuLauncher()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        setupMenuButton()
         allButtons = [button1, button2, button3]
         setAllButtonsToFalse()
         generateNewQuestion()
@@ -42,6 +43,14 @@ class LetterLevel2ViewController: UIViewController {
         userTapped(button: sender as! LetterButton)
     }
     
+    func setupMenuButton() {
+        let menuButton = UIBarButtonItem(title: "Menu", style: .plain, target: self, action: #selector(showMenu))
+        navigationItem.rightBarButtonItem = menuButton
+    }
+    
+    @objc func showMenu() {
+        menuLauncher.showMenu()
+    }
     
     func setButtonLetters() {
         var allLetters = LettersLibrary.allLetters

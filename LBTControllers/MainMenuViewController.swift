@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MainMenuViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
+class MainMenuViewController: UIViewController  {
     
     //MARK: IBOutlets
     @IBOutlet weak var colorsButton: UIButton!
@@ -18,19 +18,6 @@ class MainMenuViewController: UIViewController, UICollectionViewDataSource, UICo
     
     //Mark: Properties
     let menuLauncher = MenuLauncher()
-    let menuCollectionView: UICollectionView = {
-        let layout = UICollectionViewLayout()
-        let cv = UICollectionView(frame: .zero, collectionViewLayout: layout)
-        cv.backgroundColor = UIColor.white
-        return cv
-    }()
-    let menuCollectionViewData: [String] = [
-        "Progress by month",
-        "Progress by week",
-        "Lifetime statistics"
-    ]
-    let dimView = UIView()
-    let cellID = "cellID"
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -73,31 +60,7 @@ class MainMenuViewController: UIViewController, UICollectionViewDataSource, UICo
     }
     
     @objc func showMenu() {
-        //TODO: present menu and dim background
         menuLauncher.showMenu()
-    }
-    
-    @objc func dismissDimView() {
-        UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 1, initialSpringVelocity: 1, options: .curveEaseOut, animations: {
-            self.dimView.alpha = 0
-            self.menuCollectionView.frame = CGRect(x: -self.menuCollectionView.frame.width , y: 0, width: self.menuCollectionView.frame.width, height: self.menuCollectionView.frame.height)
-        }, completion: nil)
-    }
-
-    //MARK: data source
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return menuCollectionViewData.count
-    }
-    
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellID, for: indexPath) as! MenuCell
-        cell.addLabel(label: self.menuCollectionViewData[indexPath.count])
-        cell.backgroundColor = UIColor.blue
-        return cell
-    }
-    
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: collectionView.frame.width, height: 100)
     }
 }
 

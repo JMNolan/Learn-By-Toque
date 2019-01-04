@@ -19,8 +19,8 @@ class MenuLauncher: NSObject, UICollectionViewDataSource, UICollectionViewDelega
     }()
     let cellID = "cellID"
     let menuCollectionViewData: [String] = [
-        "Progress by month",
-        "Progress by week",
+        "Weekly Progress",
+        "Monthly Progress",
         "Lifetime statistics"
     ]
     var height: CGFloat!

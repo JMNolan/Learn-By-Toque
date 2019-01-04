@@ -20,9 +20,11 @@ class ColorLevel1ViewController: UIViewController {
     //MARK: Properties
     var correctColor: LBTModel.color?
     var correctButton: ColorsButton!
+    var menuLauncher = MenuLauncher()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupMenuButton()
         setCorrectColor()
         generateNewQuestion()
     }
@@ -40,6 +42,14 @@ class ColorLevel1ViewController: UIViewController {
         buttonPressed(button: sender as! ColorsButton)
     }
     
+    func setupMenuButton() {
+        let menuButton = UIBarButtonItem(title: "Menu", style: .plain, target: self, action: #selector(showMenu))
+        navigationItem.rightBarButtonItem = menuButton
+    }
+    
+    @objc func showMenu() {
+        menuLauncher.showMenu()
+    }
     
     //select random button of the three to be the "correct" selection
     func setButtonAsCorrect() {

@@ -23,9 +23,11 @@ class ColorLevel2ViewController: UIViewController {
     var madeOfColors: [String] = []
     var correctButtons: [ColorsButton] = []
     var correctButtonsPressed: Int = 0
+    var menuLauncher = MenuLauncher()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupMenuButton()
         generateNewQuestion()
     }
     
@@ -46,6 +48,14 @@ class ColorLevel2ViewController: UIViewController {
         buttonPressed(button: sender as! ColorsButton)
     }
     
+    func setupMenuButton() {
+        let menuButton = UIBarButtonItem(title: "Menu", style: .plain, target: self, action: #selector(showMenu))
+        navigationItem.rightBarButtonItem = menuButton
+    }
+    
+    @objc func showMenu() {
+        menuLauncher.showMenu()
+    }
     
     //select two random button of the three to be the "correct" selection
     func setButtonsAsCorrect() {

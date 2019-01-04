@@ -19,10 +19,11 @@ class AnimalLevel1ViewController: UIViewController {
     
     //MARK: Properties
     var correctAnimal: LBTModel.animal!
+    var menuLauncher = MenuLauncher()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        setupMenuButton()
         generateNewQuestion()
     }
     
@@ -37,6 +38,14 @@ class AnimalLevel1ViewController: UIViewController {
         userTapped(button: sender as! AnimalButton)
     }
     
+    func setupMenuButton() {
+        let menuButton = UIBarButtonItem(title: "Menu", style: .plain, target: self, action: #selector(showMenu))
+        navigationItem.rightBarButtonItem = menuButton
+    }
+    
+    @objc func showMenu() {
+        menuLauncher.showMenu()
+    }
     
     //check each button to find which is correct. set correct button to correctAnimal and set the rest to random animals
     func setButtonAnimals() {
